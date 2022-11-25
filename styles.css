@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500&display=swap');
+body 
+{
+    background-image: url(./download\ copy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Alexandria, sans-serif;
+    color: #011128;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 20%;
+  }
+.box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .box p {
+    font-size: 6vmax;
+    font-weight:400;
+    text-align: center;
+}
+.Machine{
+  color:#009276;
+}
+   
+  @media (max-width: 900px) {
+    .box
+     {
+      width: 100%;
+    }
+
+  }
+  @media (max-width: 700px) {
+    img
+     {
+      width: 130px;
+    }
+    .bottomline{
+      width: 70%
+    }
+  }
+  @media (min-width: 1000px) {
+    img
+     {
+      width: 200px;
+    }
+  }
+
+
+  .box button {
+    width:100%;
+    float: center;
+    color: #c6fff3;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0px 4px 20px 0px #c6f8b8a6 40%;
+    background-color: #067e64;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  @media (min-width:470px){
+    .box button{
+      width: 450px;
+    }
+  }
+  .box button:hover {
+    color: #08a07f;
+    background-color: #c6fff3;
+  }
+  .box button:active {
+    color: #c6fff3;
+    background-color: #067e64;
+  }
+  .bottomline
+{
+  font-family:Alexandria;
+  position: absolute;
+  bottom:0;
+  right:0;
+  color:rgb(152, 196, 235);
+}
